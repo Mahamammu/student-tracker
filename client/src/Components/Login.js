@@ -28,7 +28,7 @@ export default function Login() {
     try {
       const { email, password } = formData;
       
-      const response = await fetch(`https://student-tracker-application.onrender.com/api/login`, {
+      const response = await fetch(`https://student-tracker-1.onrender.com/api/login`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

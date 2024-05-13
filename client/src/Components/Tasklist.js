@@ -16,7 +16,7 @@ const Tasklist = () => {
 
     const fetchData = async () => {
         try {
-            const response = await axios.get(`https://student-tracker-application.onrender.com/api/all-tasks`);
+            const response = await axios.get(`https://student-tracker-1.onrender.com/api/all-tasks`);
             setAllTasks(response.data.tasks);
         } catch (error) {
             console.error('Error fetching data:', error);

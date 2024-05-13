@@ -43,7 +43,7 @@ export default function Signup() {
       }
   
       // Send a POST request to the backend API for signup
-      const response = await fetch(`https://student-tracker-application.onrender.com/api/signup`, {
+      const response = await fetch(`https://student-tracker-1.onrender.com/api/signup`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

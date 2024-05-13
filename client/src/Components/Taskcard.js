@@ -17,7 +17,7 @@ const Taskcard = ({ tasks,fetchData }) => {
     const handleDeleteTaskClick = async () => {
         try {
             //console.log(tasks);
-            const response = await axios.post(`https://student-tracker-application.onrender.com/api/delete-tasks/${tasks.id}`);
+            const response = await axios.post(`https://student-tracker-1.onrender.com/api/delete-tasks/${tasks.id}`);
 
 
             if (response.status === 200) {

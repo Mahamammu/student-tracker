@@ -14,7 +14,7 @@ const [alltasks, setAllTasks] = useState([]);
 
 const fetchData = async () => {
   try {
-    const response = await axios.get(`https://student-tracker-application.onrender.com/api/pending-tasks/${userId}`);
+    const response = await axios.get(`https://student-tracker-1.onrender.com/api/pending-tasks/${userId}`);
     setAllTasks(response.data.tasks);
     
   } catch (error) {
