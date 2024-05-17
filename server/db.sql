@@ -24,3 +24,6 @@ VALUES
     ('Task 1', 'Complete front-end design', 'HTML, CSS, JavaScript', '2024-03-15', 1),
     ('Task 2', 'Develop backend API', 'Node.js, Express.js', '2024-03-20', 2),
     ('Task 3', 'Write documentation', 'MS Word', '2024-03-25', 3);
+
+ALTER TABLE tasks ADD COLUMN completion_link VARCHAR(255);
+ALTER TABLE tasks ADD COLUMN completed_at TIMESTAMP;
